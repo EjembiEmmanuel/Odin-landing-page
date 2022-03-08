@@ -153,3 +153,40 @@ header .header-description .header-img {
     align-self: flex-end;
     margin: 0px 0px 50px 0px;
 }
+
+.advert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.advert .advert-banner {
+    background: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+    border-radius: 5px;
+}
+
+.advert .advert-banner .advert-information {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    margin-right: 150px;
+}
+
+.advert .advert-banner .advert-information h3 {
+    margin-bottom: 0px;
+}
+
+.advert .advert-banner button {
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: 600;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px
+}
