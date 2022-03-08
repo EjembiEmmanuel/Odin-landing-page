@@ -190,3 +190,15 @@ header .header-description .header-img {
     border-radius: 5px;
     padding: 5px 20px 5px 20px
 }
+
+footer {
+    background: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
