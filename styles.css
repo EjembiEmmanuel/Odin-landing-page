@@ -101,6 +101,7 @@ header .header-description .header-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .card-section .cards .card {
