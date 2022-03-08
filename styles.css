@@ -84,3 +84,39 @@ header .header-description .header-img {
     margin: 40px 300px 0px 0px;
 }
 
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-section .cards .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    margin: 10px 15px 10px 15px;
+    flex-wrap: wrap;
+}
+
+.card-section .cards .card-frame {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+
