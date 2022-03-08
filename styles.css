@@ -1,6 +1,86 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: monospace;
     min-height: 100vh;
     justify-content: space-between;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .logo p {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-left: 300px;
+}
+
+header .navbar .nav-links {
+    margin-right: 300px;
+}
+
+header .navbar .nav-links ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header .navbar .nav-links ul li {
+    margin: 0px 15px 0px 15px;
+}
+
+header .navbar .nav-links ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+header .header-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 100px 300px ;
+}
+
+header .header-description .description {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+header .header-description .description h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0px 0px 0px;
+}
+
+header .header-description .description button {
+    background: #3882F6;
+    width: 100px;
+    padding: 4px 5px 4px 5px;
+    border-radius: 7px;
+}
+
+header .header-description .description h1, 
+header .header-description .description p,
+header .header-description .description button {
+    color: #E5E7EB;
+}
+
+header .header-description .header-img {
+    background: #E5E7EB;
+    width: 600px;
+    margin: 40px 300px 0px 0px;
+}
+
