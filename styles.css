@@ -119,4 +119,36 @@ header .header-description .header-img {
     border-radius: 8px;
 }
 
+.banner-section {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+    align-items: center;
+}
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .quote {
+    width: 900px;
+    margin: 50px 0px 0px 0px;
+}
+
+.banner .quote p {
+    font-weight: 100;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.banner .quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    margin: 0px 0px 50px 0px;
+}
